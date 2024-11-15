@@ -1,6 +1,9 @@
 package utils
 
-import "strings"
+import (
+	"fmt"
+	"strings"
+)
 
 func SplitToInts(s, sep string) ([]int, error) {
 	parts := strings.Split(s, sep)
